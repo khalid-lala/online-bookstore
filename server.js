@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(logger);
 
 // Routes
-app.use('/api/books', bookRoutes);
+app.use('/apSSi/books', bookRoutes);
 
 // Root route
 app.get('/', (req, res) => {
@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
                 searchBooks: 'GET /api/books?author={name}&genre={type}&page={n}&limit={m}'
             }
         },
-        documentation: 'https://github.com/muhammad-hamza66/BOOK_STORE#readme'
+        documentation: 'https://github.com/khalid-lala/online-bookstore#readme'
     });
 });
 
