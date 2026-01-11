@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
         version: '1.0.0',
         status: 'Operational',
         timestamp: new Date().toISOString(),
-        author: 'Muhammad Hamza',
+        author: 'Khalid Mehmood',
         endpoints: {
             books: {
                 getAllBooks: 'GET /api/books',
